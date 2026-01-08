@@ -3,6 +3,7 @@ import os
 import requests
 import feedparser
 from bs4 import BeautifulSoup
+import torch
 
 load_dotenv()
 api_key = os.environ.get("NEWSAPI_KEY")
@@ -37,3 +38,4 @@ for entry in feed.entries:
     print("Description:", entry.summary)
     print("Date:", entry.published)
     print("---")
+
