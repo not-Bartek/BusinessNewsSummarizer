@@ -70,7 +70,3 @@ class Orchestrator(Agent):
         
         
         print(answer)
-
-
-        # Answer the question basing on articles and stock charts
-        # Write report
