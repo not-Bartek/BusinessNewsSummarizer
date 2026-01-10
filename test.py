@@ -3,6 +3,6 @@ from orchestrator import Orchestrator
 
 
 
+orchestrator = Orchestrator(model='gemini-3-flash-preview', client='google')
 
-orchestrator = Orchestrator(model='llama3')
-orchestrator.execute("How will the Tesla stocks change?", all_articles_text)
+orchestrator.execute("How is situation in south america", "no articles")
